@@ -6,10 +6,12 @@ const year = new Date().getFullYear()
 //   paretoChart: 'https://grafana.com/api/plugins/isaozler-paretochart-panel/versions',
 // }
 
+/** This is the data type */
 export type TData = {
   sections: TSection[]
 }
 
+/** This function returns the ages of my daughters and son. */
 const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${year - 2015})`;
 
 /** This constant contains all the data. */
