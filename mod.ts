@@ -4,9 +4,9 @@
  *
  * @example
  * ```ts
- * import { data } from "@isaozler/data";
+ * import * as mod from "@isaozler/data";
  *
- * { sections: [ {} ] }
+ * // mod.data -> { sections: [ { sectionData: "see types" } ] }
  * ```
  */
 

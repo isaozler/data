@@ -3,7 +3,7 @@ export type TProps = {
     src: string;
     caption: string;
     params: {
-      [key: string]: any;
+      [key: string]: unknown;
     };
   };
   text: string[];

@@ -1,14 +1,16 @@
 import { ECardType, TSection } from "./types/index.ts";
 
 const year = new Date().getFullYear()
-const downloadCountsGrafana = {
-  shiftSelector: 'https://grafana.com/api/plugins/isaozler-shiftselector-panel/versions',
-  paretoChart: 'https://grafana.com/api/plugins/isaozler-paretochart-panel/versions',
-}
+// const downloadCountsGrafana = {
+//   shiftSelector: 'https://grafana.com/api/plugins/isaozler-shiftselector-panel/versions',
+//   paretoChart: 'https://grafana.com/api/plugins/isaozler-paretochart-panel/versions',
+// }
 
 type TData = {
   sections: TSection[]
 }
+
+const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${year - 2015})`;
 
 /** This constant contains all the data. */
 export const data: TData = {
@@ -43,11 +45,7 @@ export const data: TData = {
               },
               {
                 label: 'Marital status',
-                value: `Married and father of two daughters (
-                  ${year - 2009
-                  }, ${year - 2013
-                  }) and a son (${year - 2015
-                  }).`,
+                value: `Married and father of two daughters ${getAges()}.`,
               },
               {
                 label: 'Email',
