@@ -3,7 +3,11 @@ export type TWorkItem = {
   children?: TWorkItem[];
 };
 
-export type TLink = Pick<HTMLAnchorElement, "href" | "target" | "title">;
+export type TLink = {
+  href: string;
+  target: "_blank" | "_self" | "_parent" | "_top";
+  title: string;
+};
 
 export type TProps = {
   imagePlaceholder?: {
