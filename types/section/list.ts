@@ -1,4 +1,4 @@
-import { TBaseCardProps } from "../";
+import { TBaseCardProps } from "../index.ts";
 
 type TListBase = {
   label: string;

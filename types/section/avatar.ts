@@ -1,4 +1,4 @@
-import { TBaseCardProps } from "../";
+import { TBaseCardProps } from "../index.ts";
 
 export type TProps = TBaseCardProps & {
   image: {

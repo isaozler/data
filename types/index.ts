@@ -2,13 +2,13 @@ export type TBaseCardProps = {
   isActive?: boolean
 }
 
-import type { TProps as TAvatarProps } from './section/avatar'
-import { TProps as TContentProps } from './section/content'
-import { TProps as TEducationProps } from './section/education'
-import { TProps as TExperienceProps } from './section/experience'
-import { TProps as TWorkProps } from './section/work'
-import { TProps as TRecommendationProps } from './section/recommendation'
-import { TList as TListProps, TIconList as TIconListProps } from './section/list'
+import type { TProps as TAvatarProps } from './section/avatar.ts'
+import { TProps as TContentProps } from './section/content.ts'
+import { TProps as TEducationProps } from './section/education.ts'
+import { TProps as TExperienceProps } from './section/experience.ts'
+import { TProps as TWorkProps } from './section/work.ts'
+import { TProps as TRecommendationProps } from './section/recommendation.ts'
+import { TList as TListProps, TIconList as TIconListProps } from './section/list.ts'
 
 export enum ECardType {
   AVATAR = 'avatarCard',

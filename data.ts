@@ -1,4 +1,4 @@
-import { ECardType, TSection } from "./types";
+import { ECardType, TSection } from "./types/index.ts";
 
 const year = new Date().getFullYear()
 const downloadCountsGrafana = {

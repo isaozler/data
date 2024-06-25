@@ -1,4 +1,4 @@
-import { TLink } from "./work";
+import { TLink } from "./work.ts";
 
 export type TProps = {
   items: {
