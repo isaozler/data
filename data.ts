@@ -10,6 +10,7 @@ type TData = {
   sections: TSection[]
 }
 
+/** This constant contains all the data. */
 export const data: TData = {
   sections: [
     {
