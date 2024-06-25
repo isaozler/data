@@ -10,7 +10,7 @@ type TData = {
   sections: TSection[]
 }
 
-export default {
+export const data: TData = {
   sections: [
     {
       id: 'profile',
@@ -971,4 +971,4 @@ export default {
       ],
     },
   ],
-} as TData
+};
