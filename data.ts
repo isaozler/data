@@ -6,7 +6,7 @@ const year = new Date().getFullYear()
 //   paretoChart: 'https://grafana.com/api/plugins/isaozler-paretochart-panel/versions',
 // }
 
-type TData = {
+export type TData = {
   sections: TSection[]
 }
 
