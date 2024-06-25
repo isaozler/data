@@ -22,7 +22,7 @@ export default {
           title: 'Profile',
           data: {
             image: {
-              src: '/isa-ozler.jpg',
+              src: 'https://isaozler.com/isa-ozler.jpg',
               caption: 'Isa Ozler',
             },
             text: '"devoted to solving complex challenges with innovative solutions"',
@@ -67,7 +67,7 @@ export default {
             list: [
               {
                 icon: {
-                  src: '/icons/en-flag.jpg',
+                  src: 'https://isaozler.com/icons/en-flag.jpg',
                   caption: 'English',
                 },
                 label: 'English',
@@ -75,7 +75,7 @@ export default {
               },
               {
                 icon: {
-                  src: '/icons/nl-flag.jpg',
+                  src: 'https://isaozler.com/icons/nl-flag.jpg',
                   caption: 'Dutch',
                 },
                 label: 'Dutch',
@@ -83,7 +83,7 @@ export default {
               },
               {
                 icon: {
-                  src: '/icons/tr-flag.jpg',
+                  src: 'https://isaozler.com/icons/tr-flag.jpg',
                   caption: 'Turkish',
                 },
                 label: 'Turkish',
@@ -100,7 +100,7 @@ export default {
             list: [
               {
                 icon: {
-                  src: '/icons/github.svg',
+                  src: 'https://isaozler.com/icons/github.svg',
                   caption: 'Github',
                 },
                 label: 'GitHub',
@@ -112,7 +112,7 @@ export default {
               },
               {
                 icon: {
-                  src: '/icons/x.svg',
+                  src: 'https://isaozler.com/icons/x.svg',
                   caption: 'X (Formerly Twitter)',
                 },
                 label: 'X',
@@ -124,7 +124,7 @@ export default {
               },
               {
                 icon: {
-                  src: '/icons/linkedIn.svg',
+                  src: 'https://isaozler.com/icons/linkedIn.svg',
                   caption: 'LinkedIn',
                 },
                 label: 'LinkedIn',
@@ -136,7 +136,7 @@ export default {
               },
               {
                 icon: {
-                  src: '/icons/behance.svg',
+                  src: 'https://isaozler.com/icons/behance.svg',
                   caption: 'Behance',
                 },
                 label: 'Behance',
@@ -148,7 +148,7 @@ export default {
               },
               {
                 icon: {
-                  src: '/icons/figma.svg',
+                  src: 'https://isaozler.com/icons/figma.svg',
                   caption: 'Figma',
                 },
                 label: 'Figma',
@@ -196,7 +196,7 @@ export default {
             items: [
               {
                 image: {
-                  src: '/logos/uu.jpg',
+                  src: 'https://isaozler.com/logos/uu.jpg',
                   params: {},
                 },
                 title: 'Utrecht University',
@@ -205,7 +205,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/hu.jpg',
+                  src: 'https://isaozler.com/logos/hu.jpg',
                   params: {},
                 },
                 title: 'HU University of Applied Sciences Utrecht',
@@ -214,7 +214,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/hh.jpg',
+                  src: 'https://isaozler.com/logos/hh.jpg',
                   params: {},
                 },
                 title: 'The Hague University of Applied Sciences',
@@ -223,7 +223,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/hku.jpg',
+                  src: 'https://isaozler.com/logos/hku.jpg',
                   params: {},
                 },
                 title: 'HKU (Hogeschool voor de Kunsten Utrecht)',
@@ -241,7 +241,7 @@ export default {
             items: [
               {
                 image: {
-                  src: '/logos/aws.jpg',
+                  src: 'https://isaozler.com/logos/aws.jpg',
                   caption: 'Amazon Web Services',
                   params: {},
                 },
@@ -254,7 +254,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/aws.jpg',
+                  src: 'https://isaozler.com/logos/aws.jpg',
                   caption: 'Amazon Web Services',
                   params: {},
                 },
@@ -267,7 +267,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/solace.jpg',
+                  src: 'https://isaozler.com/logos/solace.jpg',
                   caption: 'Solace',
                   params: {},
                 },
@@ -280,7 +280,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/udemy.jpg',
+                  src: 'https://isaozler.com/logos/udemy.jpg',
                   caption: 'Udemy',
                   params: {},
                 },
@@ -309,12 +309,12 @@ export default {
             } years)`,
           data: {
             imagePlaceholder: {
-              src: '/logos/icon-placeholder.png',
+              src: 'https://isaozler.com/logos/icon-placeholder.png',
             },
             items: [
               {
                 image: {
-                  src: '/logos/kadena.png',
+                  src: 'https://isaozler.com/logos/kadena.png',
                   params: {
                     priority: true,
                   },
@@ -328,7 +328,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/abn-amro.jpg',
+                  src: 'https://isaozler.com/logos/abn-amro.jpg',
                   params: {},
                 },
                 title: 'ABN Amro N.V.',
@@ -339,7 +339,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/heineken.jpg',
+                  src: 'https://isaozler.com/logos/heineken.jpg',
                   params: {},
                 },
                 title: 'Heineken Global',
@@ -353,7 +353,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/vfz.jpg',
+                  src: 'https://isaozler.com/logos/vfz.jpg',
                   params: {},
                 },
                 title: 'Vodafone Ziggo',
@@ -370,7 +370,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/mnx.jpg',
+                  src: 'https://isaozler.com/logos/mnx.jpg',
                   params: {},
                 },
                 title: 'Monitor X',
@@ -386,7 +386,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/fioritmo.jpg',
+                  src: 'https://isaozler.com/logos/fioritmo.jpg',
                   params: {},
                 },
                 title: 'Fioritmo B.V.',
@@ -395,7 +395,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/bosch.jpg',
+                  src: 'https://isaozler.com/logos/bosch.jpg',
                   params: {},
                 },
                 title: 'BOSCH Turkey',
@@ -409,7 +409,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/pg.jpg',
+                  src: 'https://isaozler.com/logos/pg.jpg',
                   params: {},
                 },
                 title: 'P&G Turkey',
@@ -428,7 +428,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/uludag.jpg',
+                  src: 'https://isaozler.com/logos/uludag.jpg',
                   params: {},
                 },
                 title: 'Uludag Icecek',
@@ -453,7 +453,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/ido.jpg',
+                  src: 'https://isaozler.com/logos/ido.jpg',
                   params: {},
                 },
                 title: 'IDO - Istanbul Ferry',
@@ -478,7 +478,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/ayaydin.jpg',
+                  src: 'https://isaozler.com/logos/ayaydin.jpg',
                   params: {},
                 },
                 title: 'Ayaydin-Mirogly Group',
@@ -492,7 +492,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/koctas.jpg',
+                  src: 'https://isaozler.com/logos/koctas.jpg',
                   params: {},
                 },
                 title: 'Koctas',
@@ -506,7 +506,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/lcwaikiki.jpg',
+                  src: 'https://isaozler.com/logos/lcwaikiki.jpg',
                   params: {},
                 },
                 title: 'LC Waikiki Global',
@@ -530,7 +530,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/stc.jpg',
+                  src: 'https://isaozler.com/logos/stc.jpg',
                   params: {},
                 },
                 title: 'STC (Saudi Telecom Company)',
@@ -544,7 +544,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/ziylan.jpg',
+                  src: 'https://isaozler.com/logos/ziylan.jpg',
                   params: {},
                 },
                 title: 'Ziylan Group',
@@ -558,7 +558,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/eh.jpg',
+                  src: 'https://isaozler.com/logos/eh.jpg',
                   params: {},
                 },
                 title: 'ENGLISH HOME',
@@ -572,7 +572,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/borusan.jpg',
+                  src: 'https://isaozler.com/logos/borusan.jpg',
                   params: {},
                 },
                 title: 'Borusan Holding',
@@ -586,7 +586,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/aydinli.jpg',
+                  src: 'https://isaozler.com/logos/aydinli.jpg',
                   params: {},
                 },
                 title: 'Aydinli Group A.S',
@@ -612,7 +612,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/farabius.jpg',
+                  src: 'https://isaozler.com/logos/farabius.jpg',
                   params: {},
                 },
                 title: 'Farabius',
@@ -623,7 +623,7 @@ export default {
               },
               {
                 image: {
-                  src: '/logos/featherlight-design.jpg',
+                  src: 'https://isaozler.com/logos/featherlight-design.jpg',
                   params: {},
                 },
                 title: 'Featherlight Design',
@@ -661,7 +661,7 @@ export default {
                   },
                 ],
                 image: {
-                  src: '/covers/kode-mono.png',
+                  src: 'https://isaozler.com/covers/kode-mono.png',
                   caption: 'Kode Mono Typography',
                   params: {
                     priority: true,
@@ -688,7 +688,7 @@ export default {
                   }
                 ],
                 image: {
-                  src: '/covers/connected-brewery.jpg',
+                  src: 'https://isaozler.com/covers/connected-brewery.jpg',
                   caption: 'Heineken Connected Brewery',
                   params: {},
                 },
@@ -726,7 +726,7 @@ export default {
                   },
                 ],
                 image: {
-                  src: '/covers/pareto-chart--grafana.jpg',
+                  src: 'https://isaozler.com/covers/pareto-chart--grafana.jpg',
                   caption: 'Grafana Pareto Plugin',
                   params: {},
                 },
@@ -762,7 +762,7 @@ export default {
                   },
                 ],
                 image: {
-                  src: '/covers/grafana-shift-selector.png',
+                  src: 'https://isaozler.com/covers/grafana-shift-selector.png',
                   caption: 'Grafana Shift Selector Plugin',
                   params: {},
                 },
@@ -796,7 +796,7 @@ export default {
                 ],
                 image: {
                   caption: 'IUASR Re-Branding',
-                  src: '/covers/iuasr.jpg',
+                  src: 'https://isaozler.com/covers/iuasr.jpg',
                   params: {},
                 },
               },
@@ -812,7 +812,7 @@ export default {
                 ],
                 image: {
                   caption: 'Vodafone Advice Tool',
-                  src: '/covers/vodafone-advice-tool.jpg',
+                  src: 'https://isaozler.com/covers/vodafone-advice-tool.jpg',
                   params: {},
                 },
                 description: 'Advice tool to get the best communication solutions package that fits your company.',
@@ -838,7 +838,7 @@ export default {
                 ],
                 image: {
                   caption: 'MonitorX',
-                  src: '/covers/mnx.jpg',
+                  src: 'https://isaozler.com/covers/mnx.jpg',
                   params: {},
                 },
                 description:
@@ -857,7 +857,7 @@ export default {
                   }
                 ],
                 image: {
-                  src: '/covers/hepido.jpg',
+                  src: 'https://isaozler.com/covers/hepido.jpg',
                   caption: 'Hepido Loyalty Program Branding',
                   params: {},
                 },
@@ -882,7 +882,7 @@ export default {
                 ],
                 image: {
                   caption: 'LC Waikiki',
-                  src: '/covers/lc-waikiki.jpg',
+                  src: 'https://isaozler.com/covers/lc-waikiki.jpg',
                   params: {},
                 },
                 links: [
@@ -910,7 +910,7 @@ export default {
                 ],
                 image: {
                   caption: 'US Polo',
-                  src: '/covers/us-polo.jpg',
+                  src: 'https://isaozler.com/covers/us-polo.jpg',
                   params: {},
                 },
                 links: [
@@ -932,7 +932,7 @@ export default {
                 ],
                 image: {
                   caption: 'Dardanelles 100th Anniversary Campaign Branding',
-                  src: '/covers/canakkale-100-logo.jpg',
+                  src: 'https://isaozler.com/covers/canakkale-100-logo.jpg',
                   params: {},
                 },
                 links: [
@@ -954,7 +954,7 @@ export default {
                 ],
                 image: {
                   caption: 'eTA B2B Freight Management Mobile App',
-                  src: '/covers/eta-b2b.jpg',
+                  src: 'https://isaozler.com/covers/eta-b2b.jpg',
                   params: {},
                 },
                 links: [
