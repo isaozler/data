@@ -1,3 +1,15 @@
+/**
+ * A module for getting the data.
+ * @module
+ *
+ * @example
+ * ```ts
+ * import * as data from '@isaozler/data/get'
+ *
+ * // data.getAll() -> { sections: [ { sectionData: "see types" } ] }
+ * ```
+ */
+
 import { ECardType, TSection } from "./types/index.ts";
 
 const year = new Date().getFullYear()
