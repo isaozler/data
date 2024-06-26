@@ -7,6 +7,7 @@
  * import * as data from '@isaozler/data/get'
  *
  * // data.getAll() -> { sections: [ { sectionData: "see types" } ] }
+ * // data.getSiteSettings(): TSiteSettings
  * ```
  */
 
@@ -18,22 +19,40 @@ const year = new Date().getFullYear()
 //   paretoChart: 'https://grafana.com/api/plugins/isaozler-paretochart-panel/versions',
 // }
 
+/** This function returns the ages of my daughters and son. */
+const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${year - 2015})`;
+
 /** This is the data type */
 export type TData = {
   sections: TSection[]
 }
 
-/** This function returns the ages of my daughters and son. */
-const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${year - 2015})`;
+/** This is the site settings type */
+export type TSiteSettings = {
+  baseURL: string
+  favIcon: string
+  title: string
+  description: string
+}
+
+/**
+  * Get site settings
+  * @returns TSiteSettings
+  */
+export const getSiteSettings = (): TSiteSettings => {
+  return {
+    baseURL: 'https://isaozler.com',
+    favIcon: 'https://isaozler.com/isa-ozler.jpg',
+    title: 'Isa Ozler · IO',
+    description: 'business solving artist',
+  }
+}
 
 /**
   * Get all data
-  *
-  * @param isAbsolute In case client needs the data with an absolute URL
   * @returns TData typed data within sections
   */
-export const getAll = (isAbsolute = false): TData => {
-  const baseURL = isAbsolute ? 'https://isaozler.com' : ''
+export const getAll = (): TData => {
   return {
     sections: [
       {
@@ -46,7 +65,7 @@ export const getAll = (isAbsolute = false): TData => {
             title: 'Profile',
             data: {
               image: {
-                src: `${baseURL}/isa-ozler.jpg`,
+                src: '/isa-ozler.jpg',
                 caption: 'Isa Ozler',
               },
               text: '"devoted to solving complex challenges with innovative solutions"',
@@ -87,7 +106,7 @@ export const getAll = (isAbsolute = false): TData => {
               list: [
                 {
                   icon: {
-                    src: `${baseURL}/icons/en-flag.jpg`,
+                    src: '/icons/en-flag.jpg',
                     caption: 'English',
                   },
                   label: 'English',
@@ -95,7 +114,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   icon: {
-                    src: `${baseURL}/icons/nl-flag.jpg`,
+                    src: '/icons/nl-flag.jpg',
                     caption: 'Dutch',
                   },
                   label: 'Dutch',
@@ -103,7 +122,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   icon: {
-                    src: `${baseURL}/icons/tr-flag.jpg`,
+                    src: '/icons/tr-flag.jpg',
                     caption: 'Turkish',
                   },
                   label: 'Turkish',
@@ -120,7 +139,7 @@ export const getAll = (isAbsolute = false): TData => {
               list: [
                 {
                   icon: {
-                    src: `${baseURL}/icons/github.svg`,
+                    src: '/icons/github.svg',
                     caption: 'Github',
                   },
                   label: 'GitHub',
@@ -132,7 +151,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   icon: {
-                    src: `${baseURL}/icons/x.svg`,
+                    src: '/icons/x.svg',
                     caption: 'X (Formerly Twitter)',
                   },
                   label: 'X',
@@ -144,7 +163,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   icon: {
-                    src: `${baseURL}/icons/linkedIn.svg`,
+                    src: '/icons/linkedIn.svg',
                     caption: 'LinkedIn',
                   },
                   label: 'LinkedIn',
@@ -156,7 +175,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   icon: {
-                    src: `${baseURL}/icons/behance.svg`,
+                    src: '/icons/behance.svg',
                     caption: 'Behance',
                   },
                   label: 'Behance',
@@ -168,7 +187,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   icon: {
-                    src: `${baseURL}/icons/figma.svg`,
+                    src: '/icons/figma.svg',
                     caption: 'Figma',
                   },
                   label: 'Figma',
@@ -216,7 +235,7 @@ export const getAll = (isAbsolute = false): TData => {
               items: [
                 {
                   image: {
-                    src: `${baseURL}/logos/uu.jpg`,
+                    src: '/logos/uu.jpg',
                     params: {},
                   },
                   title: 'Utrecht University',
@@ -225,7 +244,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/hu.jpg`,
+                    src: '/logos/hu.jpg',
                     params: {},
                   },
                   title: 'HU University of Applied Sciences Utrecht',
@@ -234,7 +253,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/hh.jpg`,
+                    src: '/logos/hh.jpg',
                     params: {},
                   },
                   title: 'The Hague University of Applied Sciences',
@@ -243,7 +262,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/hku.jpg`,
+                    src: '/logos/hku.jpg',
                     params: {},
                   },
                   title: 'HKU (Hogeschool voor de Kunsten Utrecht)',
@@ -261,7 +280,7 @@ export const getAll = (isAbsolute = false): TData => {
               items: [
                 {
                   image: {
-                    src: `${baseURL}/logos/aws.jpg`,
+                    src: '/logos/aws.jpg',
                     caption: 'Amazon Web Services',
                     params: {},
                   },
@@ -274,7 +293,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/aws.jpg`,
+                    src: '/logos/aws.jpg',
                     caption: 'Amazon Web Services',
                     params: {},
                   },
@@ -287,7 +306,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/solace.jpg`,
+                    src: '/logos/solace.jpg',
                     caption: 'Solace',
                     params: {},
                   },
@@ -300,7 +319,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/udemy.jpg`,
+                    src: '/logos/udemy.jpg',
                     caption: 'Udemy',
                     params: {},
                   },
@@ -329,12 +348,12 @@ export const getAll = (isAbsolute = false): TData => {
               } years)`,
             data: {
               imagePlaceholder: {
-                src: `${baseURL}/logos/icon-placeholder.png`,
+                src: '/logos/icon-placeholder.png',
               },
               items: [
                 {
                   image: {
-                    src: `${baseURL}/logos/kadena.png`,
+                    src: '/logos/kadena.png',
                     params: {
                       priority: true,
                     },
@@ -348,7 +367,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/abn-amro.jpg`,
+                    src: '/logos/abn-amro.jpg',
                     params: {},
                   },
                   title: 'ABN Amro N.V.',
@@ -359,7 +378,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/heineken.jpg`,
+                    src: '/logos/heineken.jpg',
                     params: {},
                   },
                   title: 'Heineken Global',
@@ -373,7 +392,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/vfz.jpg`,
+                    src: '/logos/vfz.jpg',
                     params: {},
                   },
                   title: 'Vodafone Ziggo',
@@ -390,7 +409,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/mnx.jpg`,
+                    src: '/logos/mnx.jpg',
                     params: {},
                   },
                   title: 'Monitor X',
@@ -406,7 +425,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/fioritmo.jpg`,
+                    src: '/logos/fioritmo.jpg',
                     params: {},
                   },
                   title: 'Fioritmo B.V.',
@@ -415,7 +434,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/bosch.jpg`,
+                    src: '/logos/bosch.jpg',
                     params: {},
                   },
                   title: 'BOSCH Turkey',
@@ -429,7 +448,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/pg.jpg`,
+                    src: '/logos/pg.jpg',
                     params: {},
                   },
                   title: 'P&G Turkey',
@@ -448,7 +467,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/uludag.jpg`,
+                    src: '/logos/uludag.jpg',
                     params: {},
                   },
                   title: 'Uludag Icecek',
@@ -473,7 +492,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/ido.jpg`,
+                    src: '/logos/ido.jpg',
                     params: {},
                   },
                   title: 'IDO - Istanbul Ferry',
@@ -498,7 +517,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/ayaydin.jpg`,
+                    src: '/logos/ayaydin.jpg',
                     params: {},
                   },
                   title: 'Ayaydin-Mirogly Group',
@@ -512,7 +531,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/koctas.jpg`,
+                    src: '/logos/koctas.jpg',
                     params: {},
                   },
                   title: 'Koctas',
@@ -526,7 +545,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/lcwaikiki.jpg`,
+                    src: '/logos/lcwaikiki.jpg',
                     params: {},
                   },
                   title: 'LC Waikiki Global',
@@ -550,7 +569,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/stc.jpg`,
+                    src: '/logos/stc.jpg',
                     params: {},
                   },
                   title: 'STC (Saudi Telecom Company)',
@@ -564,7 +583,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/ziylan.jpg`,
+                    src: '/logos/ziylan.jpg',
                     params: {},
                   },
                   title: 'Ziylan Group',
@@ -578,7 +597,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/eh.jpg`,
+                    src: '/logos/eh.jpg',
                     params: {},
                   },
                   title: 'ENGLISH HOME',
@@ -592,7 +611,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/borusan.jpg`,
+                    src: '/logos/borusan.jpg',
                     params: {},
                   },
                   title: 'Borusan Holding',
@@ -606,7 +625,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/aydinli.jpg`,
+                    src: '/logos/aydinli.jpg',
                     params: {},
                   },
                   title: 'Aydinli Group A.S',
@@ -632,7 +651,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/farabius.jpg`,
+                    src: '/logos/farabius.jpg',
                     params: {},
                   },
                   title: 'Farabius',
@@ -643,7 +662,7 @@ export const getAll = (isAbsolute = false): TData => {
                 },
                 {
                   image: {
-                    src: `${baseURL}/logos/featherlight-design.jpg`,
+                    src: '/logos/featherlight-design.jpg',
                     params: {},
                   },
                   title: 'Featherlight Design',
@@ -681,7 +700,7 @@ export const getAll = (isAbsolute = false): TData => {
                     },
                   ],
                   image: {
-                    src: `${baseURL}/covers/kode-mono.png`,
+                    src: '/covers/kode-mono.png',
                     caption: 'Kode Mono Typography',
                     params: {
                       priority: true,
@@ -708,7 +727,7 @@ export const getAll = (isAbsolute = false): TData => {
                     }
                   ],
                   image: {
-                    src: `${baseURL}/covers/connected-brewery.jpg`,
+                    src: '/covers/connected-brewery.jpg',
                     caption: 'Heineken Connected Brewery',
                     params: {},
                   },
@@ -746,7 +765,7 @@ export const getAll = (isAbsolute = false): TData => {
                     },
                   ],
                   image: {
-                    src: `${baseURL}/covers/pareto-chart--grafana.jpg`,
+                    src: '/covers/pareto-chart--grafana.jpg',
                     caption: 'Grafana Pareto Plugin',
                     params: {},
                   },
@@ -782,7 +801,7 @@ export const getAll = (isAbsolute = false): TData => {
                     },
                   ],
                   image: {
-                    src: `${baseURL}/covers/grafana-shift-selector.png`,
+                    src: '/covers/grafana-shift-selector.png',
                     caption: 'Grafana Shift Selector Plugin',
                     params: {},
                   },
@@ -816,7 +835,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'IUASR Re-Branding',
-                    src: `${baseURL}/covers/iuasr.jpg`,
+                    src: '/covers/iuasr.jpg',
                     params: {},
                   },
                 },
@@ -832,7 +851,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'Vodafone Advice Tool',
-                    src: `${baseURL}/covers/vodafone-advice-tool.jpg`,
+                    src: '/covers/vodafone-advice-tool.jpg',
                     params: {},
                   },
                   description: 'Advice tool to get the best communication solutions package that fits your company.',
@@ -858,7 +877,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'MonitorX',
-                    src: `${baseURL}/covers/mnx.jpg`,
+                    src: '/covers/mnx.jpg',
                     params: {},
                   },
                   description:
@@ -877,7 +896,7 @@ export const getAll = (isAbsolute = false): TData => {
                     }
                   ],
                   image: {
-                    src: `${baseURL}/covers/hepido.jpg`,
+                    src: '/covers/hepido.jpg',
                     caption: 'Hepido Loyalty Program Branding',
                     params: {},
                   },
@@ -902,7 +921,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'LC Waikiki',
-                    src: `${baseURL}/covers/lc-waikiki.jpg`,
+                    src: '/covers/lc-waikiki.jpg',
                     params: {},
                   },
                   links: [
@@ -930,7 +949,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'US Polo',
-                    src: `${baseURL}/covers/us-polo.jpg`,
+                    src: '/covers/us-polo.jpg',
                     params: {},
                   },
                   links: [
@@ -952,7 +971,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'Dardanelles 100th Anniversary Campaign Branding',
-                    src: `${baseURL}/covers/canakkale-100-logo.jpg`,
+                    src: '/covers/canakkale-100-logo.jpg',
                     params: {},
                   },
                   links: [
@@ -974,7 +993,7 @@ export const getAll = (isAbsolute = false): TData => {
                   ],
                   image: {
                     caption: 'eTA B2B Freight Management Mobile App',
-                    src: `${baseURL}/covers/eta-b2b.jpg`,
+                    src: '/covers/eta-b2b.jpg',
                     params: {},
                   },
                   links: [
