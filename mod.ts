@@ -6,9 +6,9 @@
  * ```ts
  * import * as mod from "@isaozler/data";
  *
- * // mod.data -> { sections: [ { sectionData: "see types" } ] }
+ * // mod.getAll() -> { sections: [ { sectionData: "see types" } ] }
  * ```
  */
 
 export * from "./types/index.ts"
-export * from "./data.ts";
+export * from "./get.ts";

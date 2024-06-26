@@ -1,7 +1,10 @@
 {
   "name": "@isaozler/data",
-  "version": "0.1.8",
-  "exports": "./mod.ts",
+  "version": "0.1.9",
+  "exports": {
+    ".": "./mod.ts",
+    "./get": "./get.ts"
+  },
   "lint": {
     "rules": {
       "exclude": [

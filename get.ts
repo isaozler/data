@@ -14,8 +14,13 @@ export type TData = {
 /** This function returns the ages of my daughters and son. */
 const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${year - 2015})`;
 
-/** This function returns all the data. */
-export const getData = (isAbsolute = false): TData => {
+/**
+  * Get all data
+  *
+  * @param isAbsolute In case client needs the data with an absolute URL
+  * @returns TData typed data within sections
+  */
+export const getAll = (isAbsolute = false): TData => {
   const baseURL = isAbsolute ? 'https://isaozler.com' : ''
   return {
     sections: [
