@@ -1,4 +1,4 @@
-# Personal Portfolio Website Data Package
+# isaozler.com data provider
 
 This package provides the data used for [isaozler.com](https://isaozler.com).
 
@@ -10,7 +10,24 @@ To install this package, you can use npm or yarn:
 npx jsr add @isaozler/data
 ```
 
-## Data Structure
+### Add types
+
+Until I figure out how to correctly setup JSR types you need to add the type definition reference to the tsconfig paths
+
+```json
+...
+  "paths": [
+    ...
+    "@isaozler/data": [
+        "node_modules/@isaozler/data/_dist/mod.d.ts"
+      ],
+    ...
+  ]
+```
+
+## Usage
+
+### Data Structure
 
 The package exports a JSON object containing data for various sections of the portfolio website. Here is an example of the structure:
 
