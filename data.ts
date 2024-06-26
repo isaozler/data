@@ -107,7 +107,7 @@ export const data: TData = {
                 label: 'GitHub',
                 value: 'github.com/isaozler',
                 href: {
-                  link: 'https: //github.com/isaozler',
+                  link: 'https://github.com/isaozler',
                   isSameSite: false,
                 },
               },
@@ -119,7 +119,7 @@ export const data: TData = {
                 label: 'X',
                 value: 'x.com/isaozler',
                 href: {
-                  link: 'https: //x.com/isaozler',
+                  link: 'https://x.com/isaozler',
                   isSameSite: false,
                 },
               },
@@ -131,7 +131,7 @@ export const data: TData = {
                 label: 'LinkedIn',
                 value: 'linkedin.com/in/isaozler',
                 href: {
-                  link: 'https: //www.linkedin.com/in/isaozler',
+                  link: 'https://www.linkedin.com/in/isaozler',
                   isSameSite: false,
                 },
               },
@@ -143,7 +143,7 @@ export const data: TData = {
                 label: 'Behance',
                 value: 'behance.net/isaozler',
                 href: {
-                  link: 'https: //www.behance.net/isaozler',
+                  link: 'https://www.behance.net/isaozler',
                   isSameSite: false,
                 },
               },
@@ -155,7 +155,7 @@ export const data: TData = {
                 label: 'Figma',
                 value: 'figma.com/@isaozler',
                 href: {
-                  link: 'https: //figma.com/@isaozler',
+                  link: 'https://figma.com/@isaozler',
                   isSameSite: false,
                 },
               },
@@ -672,11 +672,11 @@ export const data: TData = {
                   'A custom-designed typeface explicitly created for the developer community. Designed to enhance the user experience and reflect the principles of functionality and timelessness.',
                 links: [
                   {
-                    href: 'https: //fonts.google.com/specimen/Kode+Mono',
+                    href: 'https://fonts.google.com/specimen/Kode+Mono',
                     target: '_blank',
                     title: 'See @ Google Fonts',
                   },
-                  { href: 'https: //kodemono.com', target: '_blank', title: 'Official website @ kodemono.com' },
+                  { href: 'https://kodemono.com', target: '_blank', title: 'Official website @ kodemono.com' },
                 ],
               },
               {
@@ -697,12 +697,12 @@ export const data: TData = {
                   'A data-driven, internt-of-things <code>(IoT)</code> platform that its operations teams use to help and enable employees on the shop floor. In 2020, Heineken connected <code>16 production lines</code> to the platform in two months. As a result, the brewer increased efficiency, realized return on investment, and improved employee morale.',
                 links: [
                   {
-                    href: 'https: //youtu.be/liMA7WabMlE?t=474',
+                    href: 'https://youtu.be/liMA7WabMlE?t=474',
                     target: '_blank',
                     title: 'AWS re:Event Talk Heineken Connected Brewery',
                   },
                   {
-                    href: 'https: //aws.amazon.com/partners/success/heineken-schuberg-philis/',
+                    href: 'https://aws.amazon.com/partners/success/heineken-schuberg-philis/',
                     target: '_blank',
                     title: 'Success story @ aws.amazon.com/partners',
                   },
@@ -735,7 +735,7 @@ export const data: TData = {
                   'This plugin provides you the ability to draw a Pareto chart with <code>RDB</code> and <code>TimeSeries databases</code>.',
                 links: [
                   {
-                    href: 'https: //grafana.com/grafana/plugins/isaozler-paretochart-panel/',
+                    href: 'https://grafana.com/grafana/plugins/isaozler-paretochart-panel/',
                     target: '_blank',
                     title: 'Grafana Pareto Plugin Page',
                   },
@@ -771,7 +771,7 @@ export const data: TData = {
                   'The shift selector plugin allows you to adjust the time range of your Grafana dashboard to one <code>specific shift</code> or a range of shifts. This page will show how it works and how to change the displayed shifts to a particular season or production line.',
                 links: [
                   {
-                    href: 'https: //grafana.com/grafana/plugins/isaozler-shiftselector-panel/',
+                    href: 'https://grafana.com/grafana/plugins/isaozler-shiftselector-panel/',
                     target: '_blank',
                     title: 'Grafana Shift Selector Plugin Page',
                   },
@@ -804,7 +804,7 @@ export const data: TData = {
               {
                 title: 'Vodafone Advice Tool',
                 id: 'vodafone-advice-tool',
-                subTitle: 'https: //www.vodafone.nl/zakelijk/keuzehulp',
+                subTitle: 'https://www.vodafone.nl/zakelijk/keuzehulp',
                 type: 'Web Application Development + UX',
                 deliverables: [
                   {
@@ -821,7 +821,7 @@ export const data: TData = {
               {
                 title: 'MonitorX',
                 id: 'monitor-x-home-management-system',
-                subTitle: 'https: //monitorx.net',
+                subTitle: 'https://monitorx.net',
                 type: 'Fullstack Development + DevOps, UI/UX & Tech Lead',
                 deliverables: [
                   {
@@ -865,7 +865,7 @@ export const data: TData = {
                 description: 'Hepido is a loyalty program of IDO. My role was the development of the new brand.',
                 links: [
                   {
-                    href: 'https: //www.behance.net/gallery/62437681/IDO-Hepido-Corporate-Identity-Mobile-App-Design',
+                    href: 'https://www.behance.net/gallery/62437681/IDO-Hepido-Corporate-Identity-Mobile-App-Design',
                     target: '_blank',
                     title: 'Project details @behance.net',
                   },
@@ -888,7 +888,7 @@ export const data: TData = {
                 },
                 links: [
                   {
-                    href: 'https: //www.behance.net/gallery/68267819/B2C-SAP-Hybris-e-Commerce-Storefront',
+                    href: 'https://www.behance.net/gallery/68267819/B2C-SAP-Hybris-e-Commerce-Storefront',
                     target: '_blank',
                     title: 'Project details @behance.net',
                   },
@@ -916,7 +916,7 @@ export const data: TData = {
                 },
                 links: [
                   {
-                    href: 'https: //www.behance.net/gallery/68266567/AYDINLI-USPA-B2C-e-Commerce-Clients-(iOS-Android)',
+                    href: 'https://www.behance.net/gallery/68266567/AYDINLI-USPA-B2C-e-Commerce-Clients-(iOS-Android)',
                     target: '_blank',
                     title: 'Project details @behance.net',
                   },
@@ -938,7 +938,7 @@ export const data: TData = {
                 },
                 links: [
                   {
-                    href: 'https: //www.behance.net/gallery/20021697/Canakkale-Zaferi-100-Yasinda',
+                    href: 'https://www.behance.net/gallery/20021697/Canakkale-Zaferi-100-Yasinda',
                     target: '_blank',
                     title: 'Project details @behance.net',
                   },
@@ -960,7 +960,7 @@ export const data: TData = {
                 },
                 links: [
                   {
-                    href: 'https: //www.behance.net/gallery/68878257/ETA-B2B-Freight-Management-Mobile-App',
+                    href: 'https://www.behance.net/gallery/68878257/ETA-B2B-Freight-Management-Mobile-App',
                     target: '_blank',
                     title: 'Project details @behance.net',
                   },
