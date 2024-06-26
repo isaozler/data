@@ -1,5 +1,6 @@
 import { TLink } from "./work.ts";
 
+/** Card Props */
 export type TProps = {
   items: {
     id: string;

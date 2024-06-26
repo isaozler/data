@@ -1,3 +1,4 @@
+/** Card Props */
 export type TProps = {
   items: {
     image?: {

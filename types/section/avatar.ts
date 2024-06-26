@@ -1,5 +1,6 @@
 import { TBaseCardProps } from "../index.ts";
 
+/** Card Props */
 export type TProps = TBaseCardProps & {
   image: {
     src: string;

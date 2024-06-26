@@ -1,5 +1,6 @@
 import { TBaseCardProps } from "../index.ts";
 
+/** List Base Props */
 type TListBase = {
   label: string;
   value: string;
@@ -9,11 +10,13 @@ type TListBase = {
   };
 };
 
+/** List Props */
 export type TList = TBaseCardProps & {
   list: TListBase[];
   hasLabels?: boolean;
 };
 
+/** Icon List Props */
 export type TIconList = {
   list: (TListBase & {
     icon: {

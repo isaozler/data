@@ -1,14 +1,17 @@
+/** Work Item Props */
 export type TWorkItem = {
   label: string;
   children?: TWorkItem[];
 };
 
+/** Reference Link Props */
 export type TLink = {
   href: string;
   target: "_blank" | "_self" | "_parent" | "_top";
   title: string;
 };
 
+/** Card Props */
 export type TProps = {
   imagePlaceholder?: {
     src: string;

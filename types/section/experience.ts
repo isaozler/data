@@ -1,8 +1,10 @@
+/** Project Props */
 export type TProjectItem = {
   label: string;
   children?: TProjectItem[];
 };
 
+/** Card Props */
 export type TProps = {
   imagePlaceholder?: {
     src: string;
