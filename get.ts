@@ -94,7 +94,7 @@ export const all: TData = {
                   caption: 'English',
                 },
                 label: 'English',
-                value: 'C1',
+                value: 'Fluent',
               },
               {
                 icon: {
