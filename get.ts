@@ -12,6 +12,15 @@ const year = new Date().getFullYear()
 //   paretoChart: 'https://grafana.com/api/plugins/isaozler-paretochart-panel/versions',
 // }
 
+/*
+
+data.items.reduce((acc, d) => {
+  acc[d.version] = d.downloads;
+  return acc;
+}, {});
+
+*/
+
 /** This function returns the ages of my daughters and son. */
 const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${year - 2015})`;
 
@@ -993,5 +1002,34 @@ export const all: TData = {
         },
       ],
     },
+    {
+      id: 'creative',
+      title: 'Creative',
+      cards: [
+        {
+          id: 'creative-work.items',
+          type: ECardType.WORK,
+          title: 'Creative Work',
+          description: 'creative.isaozler.com',
+          data: {
+            items: [
+              {
+                id: 'creative-isaozler-com',
+                title: 'Portfolio Website',
+                description:
+                  'This is a website that showcases my branding work.',
+                links: [
+                  {
+                    href: 'https://creative.isaozler.com',
+                    target: '_blank',
+                    title: 'See @ creative.isaozler.com',
+                  },
+                ],
+              },
+            ]
+          },
+        },
+      ]
+    }
   ],
 }
