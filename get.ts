@@ -28,6 +28,7 @@ const getAges = (): string => `(${year - 2009}, ${year - 2013}) and a son (${yea
 export type TSiteSettings = {
   baseURL: string
   favIcon: string
+  favIconType?: string
   title: string
   description: string
 }
@@ -35,7 +36,8 @@ export type TSiteSettings = {
 /** Get site settings */
 export const siteSettings: TSiteSettings = {
   baseURL: 'https://isaozler.com',
-  favIcon: 'https://isaozler.com/isa-ozler.jpg',
+  favIcon: 'https://isaozler.com/fav.ico',
+  favIconType: 'image/x-icon',
   title: 'Isa Ozler · IO',
   description: 'business solving artist',
 }
