@@ -348,6 +348,69 @@ export const all: TData = {
             items: [
               {
                 image: {
+                  src: '/logos/kode-mono.png',
+                  params: {},
+                },
+                title: 'Kode Mono v2',
+                subTitle: 'Typeface Design',
+                placeDate: 'Aug 2026 - Present',
+              },
+              {
+                image: {
+                  src: '/logos/brightcard.png',
+                  params: {},
+                },
+                title: 'Brightcard iOS Wallet',
+                subTitle: 'Branding, iOS Developer (Swift)',
+                placeDate: 'Aug 2026 - Nov 2026',
+                roles: [
+                  'Branding',
+                  'iOS app development in Swift',
+                  'App Store release',
+                ],
+              },
+              {
+                image: {
+                  src: '/logos/leagle.png',
+                  params: {},
+                },
+                title: 'Leagle.id',
+                subTitle: 'Co-founder, CPO',
+                placeDate: 'Nov 2025 - Present',
+              },
+              {
+                image: {
+                  src: '/logos/rndx.png',
+                  params: {},
+                },
+                title: 'RNDX - eFlexIQ',
+                subTitle: 'Infrastructure as Code, Branding, Innovation',
+                placeDate: 'Nov 2025 - Present',
+                roles: [
+                  'Infrastructure as Code',
+                  'Branding',
+                ],
+                projects: [
+                  {
+                    label: 'Automated detection of waste and opportunity (https://fioritmo.com/cases/automated-detection-of-waste-and-opportunity)'
+                  },
+                ],
+              },
+              {
+                image: {
+                  src: '/logos/helixer.png',
+                  params: {},
+                },
+                title: 'Helixer',
+                subTitle: 'Design System, UI/UX',
+                placeDate: 'Nov 2024 - Nov 2025',
+                roles: [
+                  'Design System implementation',
+                  'UI/UX improvements for the Helixer OS',
+                ],
+              },
+              {
+                image: {
                   src: '/logos/kadena.png',
                   params: {
                     priority: true,
