@@ -389,6 +389,7 @@ export const all: TData = {
                 roles: [
                   'Infrastructure as Code',
                   'Branding',
+                  'Innovation',
                 ],
                 projects: [
                   {
