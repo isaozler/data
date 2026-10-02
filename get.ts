@@ -298,7 +298,7 @@ export const all: TData = {
                 },
                 title: 'Cloud Practitioner',
                 subTitle: 'Amazon Web Services',
-                date: '2020, No Expiration Date',
+                date: '2020',
                 credential: {
                   id: 'mV4O-kSqeE202bSkzgANrA2',
                 },
@@ -311,7 +311,7 @@ export const all: TData = {
                 },
                 title: 'Fundamentals of Solace Development',
                 subTitle: 'Solace',
-                date: '2020, No Expiration Date',
+                date: '2020',
                 credential: {
                   id: 'UC-E6K53XXH',
                 },
@@ -324,7 +324,7 @@ export const all: TData = {
                 },
                 title: 'The complete guide to becoming solution architect',
                 subTitle: 'Udemy',
-                date: '2020, No Expiration Date',
+                date: '2020',
                 credential: {
                   id: 'UC-ZIUHYJW2',
                 },
@@ -357,7 +357,7 @@ export const all: TData = {
                 },
                 title: 'Brightcard iOS Wallet',
                 subTitle: 'Branding, iOS Developer (Swift)',
-                date: 'Aug 2026 - Nov 2026',
+                date: '08-2026 - 11-2026',
                 roles: [
                   'Branding',
                   'iOS app development in Swift',
@@ -371,7 +371,7 @@ export const all: TData = {
                 },
                 title: 'Leagle.id',
                 subTitle: 'Co-founder, CPO',
-                date: 'Nov 2025 - Present',
+                date: '11-2025 - NOW',
               },
               {
                 image: {
@@ -380,7 +380,7 @@ export const all: TData = {
                 },
                 title: 'RNDX - eFlexIQ',
                 subTitle: 'Infrastructure as Code, Branding, Innovation',
-                date: 'Nov 2025 - Present',
+                date: '11-2025 - NOW',
                 roles: [
                   'Infrastructure as Code',
                   'Branding',
@@ -399,7 +399,7 @@ export const all: TData = {
                 },
                 title: 'Helixer',
                 subTitle: 'Design System, UI/UX',
-                date: 'Nov 2024 - Nov 2025',
+                date: '11-2024 - 11-2025',
                 roles: [
                   'Design System implementation',
                   'UI/UX improvements for the Helixer OS',
@@ -415,7 +415,7 @@ export const all: TData = {
                 title: 'Kadena LLC',
                 subTitle: 'Product Design (UI/UX)',
                 place: 'The Netherlands',
-                date: 'Dec 2022',
+                date: '12-2022',
                 roles: [
                   'In charge of the design of all products, apps, and technical documentation, including building the components that can be used in these.',
                 ],
@@ -428,7 +428,7 @@ export const all: TData = {
                 title: 'ABN Amro N.V.',
                 subTitle: 'Engineer + Lead UI/UX',
                 place: 'The Netherlands',
-                date: 'Jan 2022 - Dec 2022',
+                date: '01-2022 - 12-2022',
                 roles: ['Datamarket Place (Internal Data Governance App) development', 'Lead UI/UX Data Marketplace'
                 ],
               },
@@ -440,7 +440,7 @@ export const all: TData = {
                 title: 'Heineken Global',
                 subTitle: 'Mission Critical Engineer',
                 place: 'The Netherlands',
-                date: '2020-2022',
+                date: '2020 - 2022',
                 projects: [
                   {
                     label: 'Building a new IoT platform that enables Heineken breweries to be future-proof. (https://aws.amazon.com/partners/success/heineken-schuberg-philis/)'
@@ -455,7 +455,7 @@ export const all: TData = {
                 title: 'Vodafone Ziggo',
                 subTitle: 'Frontend Developer',
                 place: 'The Netherlands',
-                date: '2018-2019',
+                date: '2018 - 2019',
                 projects: [
                   {
                     label: 'Vodafone: B2B Account Management App'
@@ -473,7 +473,7 @@ export const all: TData = {
                 title: 'Monitor X',
                 subTitle: 'Fullstack developer / DevOps / UI/UX + Brand developer',
                 place: 'The Netherlands',
-                date: '2018-2022',
+                date: '2018 - 2022',
                 roles: [
                   'Brand Developer',
                   'Frontend Developer (web apps)',
@@ -617,7 +617,7 @@ export const all: TData = {
                 title: 'LC Waikiki Global',
                 subTitle: 'Frontend Developer',
                 place: 'Istanbul, Turkey',
-                date: '2017-2018',
+                date: '2017 - 2018',
                 projects: [
                   {
                     label: 'B2C SAP Hybris e-Commerce Storefront Development'
@@ -628,7 +628,7 @@ export const all: TData = {
                 title: 'Sooce Games',
                 subTitle: 'Fullstack Developer',
                 place: 'Istanbul, Turkey',
-                date: '2016-2018',
+                date: '2016 - 2018',
                 projects: [
                   {
                     label: 'Developed and maintained game and application APIs'
@@ -703,7 +703,7 @@ export const all: TData = {
                 title: 'Aydinli Group A.S',
                 subTitle: 'Project Lead UI/UX Developer',
                 place: 'Istanbul, Turkey',
-                date: '2014-2015',
+                date: '2014 - 2015',
                 projects: [
                   {
                     label: 'Mobile UI/UX Designer'
@@ -730,7 +730,7 @@ export const all: TData = {
                 title: 'Farabius',
                 subTitle: 'Co-Founder, Fullstack + UI/UX',
                 place: 'Istanbul, Turkey',
-                date: '2014-2016',
+                date: '2014 - 2016',
                 achievements: ['Managed to develop an application with a total transaction amount of ~ $1M'
                 ],
               },
@@ -742,7 +742,7 @@ export const all: TData = {
                 title: 'Featherlight Design',
                 subTitle: 'Founder, Fullstack + UI/UX',
                 place: 'The Netherlands',
-                date: '2006-2014',
+                date: '2006 - 2014',
                 achievements: ['Branded / re-branded 2 brands which are today still in use for more then 10 years'
                 ],
               },
@@ -764,7 +764,7 @@ export const all: TData = {
             items: [
               {
                 id: 'redline-wars-visual-identity',
-                date: 'Sep 2026',
+                date: '09-2026',
                 title: 'Redline Wars',
                 type: 'Visual Identity',
                 deliverables: [
@@ -782,7 +782,7 @@ export const all: TData = {
               },
               {
                 id: 'kode-mono-v2',
-                date: 'Aug 2026 - Present',
+                date: '08-2026 - NOW',
                 title: 'Kode Mono v2',
                 type: 'Typeface Design',
                 deliverables: [
@@ -794,7 +794,7 @@ export const all: TData = {
               },
               {
                 id: 'kode-mono-typography',
-                date: '2023-2024',
+                date: '2023 - 2024',
                 title: 'Kode Mono Typeface',
                 type: 'Typography Design & development',
                 deliverables: [
@@ -826,7 +826,7 @@ export const all: TData = {
               {
                 title: 'Grafana Pareto Chart Plugin',
                 id: 'grafana-pareto-chart-plugin',
-                date: '2020-2022',
+                date: '2020 - 2022',
                 type: 'Grafana Panel Plugin',
                 deliverables: [
                   {
@@ -860,7 +860,7 @@ export const all: TData = {
               {
                 title: 'Grafana Shift Selector Plugin',
                 id: 'grafana-shift-selector-plugin',
-                date: '2020-2022',
+                date: '2020 - 2022',
                 type: 'Grafana Panel Plugin',
                 deliverables: [
                   {
@@ -897,6 +897,7 @@ export const all: TData = {
               {
                 title: 'IUASR Re-Branding',
                 id: 'iuasr-rebranding',
+                date: '2020',
                 type: 'Branding, Web Design',
                 deliverables: [
                   {
@@ -966,7 +967,7 @@ export const all: TData = {
               {
                 title: 'LC Waikiki eCommerce Storefront',
                 id: 'lc-waikiki-global-ecommerce-storefront',
-                date: '2017-2018',
+                date: '2017 - 2018',
                 subTitle: 'Global eCommerce storefront',
                 type: 'Web Application + SAP Integration',
                 deliverables: [
@@ -990,7 +991,7 @@ export const all: TData = {
               {
                 title: 'US Polo Assn. Mobile App',
                 id: 'us-polo-mobile-application',
-                date: '2014-2015',
+                date: '2014 - 2015',
                 type: 'Mobile Application UI/UX, Development Lead',
                 deliverables: [
                   {
@@ -1019,6 +1020,7 @@ export const all: TData = {
               {
                 title: 'Dardanelles 100th Anniversary Campaign Branding',
                 id: 'dardanelles-100-th-anniversary-campaign-branding',
+                date: '2014',
                 type: 'Branding',
                 deliverables: [
                   {
@@ -1041,6 +1043,7 @@ export const all: TData = {
               {
                 title: 'eTA B2B Freight Management Mobile App',
                 id: 'eta-b2b-freight management-mobile-app',
+                date: '2014',
                 type: 'Mobile App Design, Development Lead',
                 deliverables: [
                   {
@@ -1078,6 +1081,7 @@ export const all: TData = {
             items: [
               {
                 id: 'creative-isaozler-com',
+                date: '2025',
                 title: 'Portfolio Website',
                 description:
                   'This is a website that showcases my branding work.',
