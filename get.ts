@@ -235,7 +235,8 @@ export const all: TData = {
                 },
                 title: 'Utrecht University',
                 subTitle: 'Pre-Master Edu. Science',
-                placeDate: '2006, The Netherlands',
+                place: 'The Netherlands',
+                date: '2006',
               },
               {
                 image: {
@@ -244,7 +245,8 @@ export const all: TData = {
                 },
                 title: 'HU University of Applied Sciences Utrecht',
                 subTitle: '2nd Degree Physics',
-                placeDate: '2004 - 2008, The Netherlands',
+                place: 'The Netherlands',
+                date: '2004 - 2008',
               },
               {
                 image: {
@@ -253,7 +255,8 @@ export const all: TData = {
                 },
                 title: 'The Hague University of Applied Sciences',
                 subTitle: 'Industrial and Product Design',
-                placeDate: '2003 - 2004, The Netherlands',
+                place: 'The Netherlands',
+                date: '2003 - 2004',
               },
               {
                 image: {
@@ -262,7 +265,8 @@ export const all: TData = {
                 },
                 title: 'HKU (Hogeschool voor de Kunsten Utrecht)',
                 subTitle: 'User Interface & Interaction Design',
-                placeDate: '2002 - 2003, The Netherlands',
+                place: 'The Netherlands',
+                date: '2002 - 2003',
               },
             ],
           },
@@ -281,7 +285,7 @@ export const all: TData = {
                 },
                 title: 'Solutions Architect Associate',
                 subTitle: 'Amazon Web Services',
-                placeDate: '2020 - 2022',
+                date: '2020 - 2022',
                 credential: {
                   id: 'mMdCpsKrvkuH6tveFZCVUA2',
                 },
@@ -294,7 +298,7 @@ export const all: TData = {
                 },
                 title: 'Cloud Practitioner',
                 subTitle: 'Amazon Web Services',
-                placeDate: '2020, No Expiration Date',
+                date: '2020, No Expiration Date',
                 credential: {
                   id: 'mV4O-kSqeE202bSkzgANrA2',
                 },
@@ -307,7 +311,7 @@ export const all: TData = {
                 },
                 title: 'Fundamentals of Solace Development',
                 subTitle: 'Solace',
-                placeDate: '2020, No Expiration Date',
+                date: '2020, No Expiration Date',
                 credential: {
                   id: 'UC-E6K53XXH',
                 },
@@ -320,7 +324,7 @@ export const all: TData = {
                 },
                 title: 'The complete guide to becoming solution architect',
                 subTitle: 'Udemy',
-                placeDate: '2020, No Expiration Date',
+                date: '2020, No Expiration Date',
                 credential: {
                   id: 'UC-ZIUHYJW2',
                 },
@@ -353,7 +357,7 @@ export const all: TData = {
                 },
                 title: 'Brightcard iOS Wallet',
                 subTitle: 'Branding, iOS Developer (Swift)',
-                placeDate: 'Aug 2026 - Nov 2026',
+                date: 'Aug 2026 - Nov 2026',
                 roles: [
                   'Branding',
                   'iOS app development in Swift',
@@ -367,7 +371,7 @@ export const all: TData = {
                 },
                 title: 'Leagle.id',
                 subTitle: 'Co-founder, CPO',
-                placeDate: 'Nov 2025 - Present',
+                date: 'Nov 2025 - Present',
               },
               {
                 image: {
@@ -376,7 +380,7 @@ export const all: TData = {
                 },
                 title: 'RNDX - eFlexIQ',
                 subTitle: 'Infrastructure as Code, Branding, Innovation',
-                placeDate: 'Nov 2025 - Present',
+                date: 'Nov 2025 - Present',
                 roles: [
                   'Infrastructure as Code',
                   'Branding',
@@ -395,7 +399,7 @@ export const all: TData = {
                 },
                 title: 'Helixer',
                 subTitle: 'Design System, UI/UX',
-                placeDate: 'Nov 2024 - Nov 2025',
+                date: 'Nov 2024 - Nov 2025',
                 roles: [
                   'Design System implementation',
                   'UI/UX improvements for the Helixer OS',
@@ -410,7 +414,8 @@ export const all: TData = {
                 },
                 title: 'Kadena LLC',
                 subTitle: 'Product Design (UI/UX)',
-                placeDate: 'Dec 2022, The Netherlands',
+                place: 'The Netherlands',
+                date: 'Dec 2022',
                 roles: [
                   'In charge of the design of all products, apps, and technical documentation, including building the components that can be used in these.',
                 ],
@@ -422,7 +427,8 @@ export const all: TData = {
                 },
                 title: 'ABN Amro N.V.',
                 subTitle: 'Engineer + Lead UI/UX',
-                placeDate: 'Jan 2022 - Dec 2022, The Netherlands',
+                place: 'The Netherlands',
+                date: 'Jan 2022 - Dec 2022',
                 roles: ['Datamarket Place (Internal Data Governance App) development', 'Lead UI/UX Data Marketplace'
                 ],
               },
@@ -433,7 +439,8 @@ export const all: TData = {
                 },
                 title: 'Heineken Global',
                 subTitle: 'Mission Critical Engineer',
-                placeDate: '2020-2022, The Netherlands',
+                place: 'The Netherlands',
+                date: '2020-2022',
                 projects: [
                   {
                     label: 'Building a new IoT platform that enables Heineken breweries to be future-proof. (https://aws.amazon.com/partners/success/heineken-schuberg-philis/)'
@@ -447,7 +454,8 @@ export const all: TData = {
                 },
                 title: 'Vodafone Ziggo',
                 subTitle: 'Frontend Developer',
-                placeDate: '2018-2019, The Netherlands',
+                place: 'The Netherlands',
+                date: '2018-2019',
                 projects: [
                   {
                     label: 'Vodafone: B2B Account Management App'
@@ -464,7 +472,8 @@ export const all: TData = {
                 },
                 title: 'Monitor X',
                 subTitle: 'Fullstack developer / DevOps / UI/UX + Brand developer',
-                placeDate: '2018-2022, The Netherlands',
+                place: 'The Netherlands',
+                date: '2018-2022',
                 roles: [
                   'Brand Developer',
                   'Frontend Developer (web apps)',
@@ -480,7 +489,8 @@ export const all: TData = {
                 },
                 title: 'Fioritmo B.V.',
                 subTitle: 'Founder, Fullstack, DevOps, UI/UX, Mobile App Dev',
-                placeDate: '2018, The Netherlands',
+                place: 'The Netherlands',
+                date: '2018',
               },
               {
                 image: {
@@ -489,7 +499,8 @@ export const all: TData = {
                 },
                 title: 'BOSCH Turkey',
                 subTitle: 'Frontend Developer',
-                placeDate: '2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2018',
                 projects: [
                   {
                     label: 'Internal HR Personal Improvement App Development'
@@ -503,7 +514,8 @@ export const all: TData = {
                 },
                 title: 'P&G Turkey',
                 subTitle: 'Fullstack Developer',
-                placeDate: '2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2018',
                 projects: [
                   {
                     label: 'Truck Tracker IoT Project (POC)',
@@ -522,7 +534,8 @@ export const all: TData = {
                 },
                 title: 'Uludag Icecek',
                 subTitle: 'Fullstack + UI/UX developer',
-                placeDate: '2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2018',
                 projects: [
                   {
                     label: 'B2B Resellers admin portal (POC e2e)',
@@ -547,7 +560,8 @@ export const all: TData = {
                 },
                 title: 'IDO - Istanbul Ferry',
                 subTitle: 'Fullstack + UI/UX developer',
-                placeDate: '2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2018',
                 projects: [
                   {
                     label: 'Web Developer / Designer + Brand developer',
@@ -572,7 +586,8 @@ export const all: TData = {
                 },
                 title: 'Ayaydin-Mirogly Group',
                 subTitle: 'Mobile UI/UX Designer',
-                placeDate: '2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2018',
                 projects: [
                   {
                     label: 'Mobile In-Store Customer Service Application Designs',
@@ -586,7 +601,8 @@ export const all: TData = {
                 },
                 title: 'Koctas',
                 subTitle: 'Technical Lead',
-                placeDate: '2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2018',
                 projects: [
                   {
                     label: 'Mobile SAP Hybris B2C e-Commerce iOS and Android development'
@@ -600,7 +616,8 @@ export const all: TData = {
                 },
                 title: 'LC Waikiki Global',
                 subTitle: 'Frontend Developer',
-                placeDate: '2017-2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2017-2018',
                 projects: [
                   {
                     label: 'B2C SAP Hybris e-Commerce Storefront Development'
@@ -610,7 +627,8 @@ export const all: TData = {
               {
                 title: 'Sooce Games',
                 subTitle: 'Fullstack Developer',
-                placeDate: '2016-2018, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2016-2018',
                 projects: [
                   {
                     label: 'Developed and maintained game and application APIs'
@@ -624,7 +642,8 @@ export const all: TData = {
                 },
                 title: 'STC (Saudi Telecom Company)',
                 subTitle: 'Mobile Development Team Lead',
-                placeDate: '2017, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2017',
                 projects: [
                   {
                     label: 'Mobile B2C Loyalty Application Project'
@@ -638,7 +657,8 @@ export const all: TData = {
                 },
                 title: 'Ziylan Group',
                 subTitle: 'Frontend Developer',
-                placeDate: '2017, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2017',
                 projects: [
                   {
                     label: 'Flo B2C SAP Hybris e-Commerce Web Development'
@@ -652,7 +672,8 @@ export const all: TData = {
                 },
                 title: 'ENGLISH HOME',
                 subTitle: 'Mobile UI/UX Designer',
-                placeDate: '2016, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2016',
                 projects: [
                   {
                     label: 'B2C eCommerce Mobile App'
@@ -666,7 +687,8 @@ export const all: TData = {
                 },
                 title: 'Borusan Holding',
                 subTitle: 'Project Lead UI/UX Developer',
-                placeDate: '2015, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2015',
                 projects: [
                   {
                     label: 'B2C eCommerce Mobile App'
@@ -680,7 +702,8 @@ export const all: TData = {
                 },
                 title: 'Aydinli Group A.S',
                 subTitle: 'Project Lead UI/UX Developer',
-                placeDate: '2014-2015, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2014-2015',
                 projects: [
                   {
                     label: 'Mobile UI/UX Designer'
@@ -706,7 +729,8 @@ export const all: TData = {
                 },
                 title: 'Farabius',
                 subTitle: 'Co-Founder, Fullstack + UI/UX',
-                placeDate: '2014-2016, Turkey, Istanbul',
+                place: 'Istanbul, Turkey',
+                date: '2014-2016',
                 achievements: ['Managed to develop an application with a total transaction amount of ~ $1M'
                 ],
               },
@@ -717,7 +741,8 @@ export const all: TData = {
                 },
                 title: 'Featherlight Design',
                 subTitle: 'Founder, Fullstack + UI/UX',
-                placeDate: '2006-2014, The Netherlands',
+                place: 'The Netherlands',
+                date: '2006-2014',
                 achievements: ['Branded / re-branded 2 brands which are today still in use for more then 10 years'
                 ],
               },
@@ -739,6 +764,7 @@ export const all: TData = {
             items: [
               {
                 id: 'redline-wars-visual-identity',
+                date: 'Sep 2026',
                 title: 'Redline Wars',
                 type: 'Visual Identity',
                 deliverables: [
@@ -756,17 +782,19 @@ export const all: TData = {
               },
               {
                 id: 'kode-mono-v2',
+                date: 'Aug 2026 - Present',
                 title: 'Kode Mono v2',
                 type: 'Typeface Design',
                 deliverables: [
                   {
-                    label: 'Second version of the Kode Mono typeface (Aug 2026 - Present)'
+                    label: 'Second version of the Kode Mono typeface'
                   },
                 ],
                 links: [{ href: 'https://kodemono.com', target: '_blank', title: 'Official website @ kodemono.com' }],
               },
               {
                 id: 'kode-mono-typography',
+                date: '2023-2024',
                 title: 'Kode Mono Typeface',
                 type: 'Typography Design & development',
                 deliverables: [
@@ -798,6 +826,7 @@ export const all: TData = {
               {
                 title: 'Grafana Pareto Chart Plugin',
                 id: 'grafana-pareto-chart-plugin',
+                date: '2020-2022',
                 type: 'Grafana Panel Plugin',
                 deliverables: [
                   {
@@ -831,6 +860,7 @@ export const all: TData = {
               {
                 title: 'Grafana Shift Selector Plugin',
                 id: 'grafana-shift-selector-plugin',
+                date: '2020-2022',
                 type: 'Grafana Panel Plugin',
                 deliverables: [
                   {
@@ -891,6 +921,7 @@ export const all: TData = {
               {
                 title: 'Vodafone Advice Tool',
                 id: 'vodafone-advice-tool',
+                date: '2019',
                 subTitle: 'https://www.vodafone.nl/zakelijk/keuzehulp',
                 type: 'Web Application Development + UX',
                 deliverables: [
@@ -908,6 +939,7 @@ export const all: TData = {
               {
                 title: 'Hepido Loyalty Program Branding',
                 id: 'ido-loyalty-program-branding-hepido',
+                date: '2018',
                 type: 'Branding',
                 deliverables: [
                   {
@@ -934,6 +966,7 @@ export const all: TData = {
               {
                 title: 'LC Waikiki eCommerce Storefront',
                 id: 'lc-waikiki-global-ecommerce-storefront',
+                date: '2017-2018',
                 subTitle: 'Global eCommerce storefront',
                 type: 'Web Application + SAP Integration',
                 deliverables: [
@@ -957,6 +990,7 @@ export const all: TData = {
               {
                 title: 'US Polo Assn. Mobile App',
                 id: 'us-polo-mobile-application',
+                date: '2014-2015',
                 type: 'Mobile Application UI/UX, Development Lead',
                 deliverables: [
                   {

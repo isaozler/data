@@ -19,7 +19,8 @@ export type TProps = {
     };
     title: string;
     subTitle?: string;
-    placeDate?: string;
+    place?: string;
+    date?: string;
     achievements?: string[];
     roles?: string[];
     projects?: TProjectItem[];

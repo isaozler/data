@@ -20,6 +20,8 @@ export type TProps = {
     id: string;
     title: string;
     subTitle?: string;
+    place?: string;
+    date?: string;
     description?: string;
     type?: string;
     deliverables?: TWorkItem[];

@@ -10,7 +10,8 @@ export type TProps = {
     };
     title: string;
     subTitle?: string;
-    placeDate?: string;
+    place?: string;
+    date?: string;
     credential?: {
       id: string;
     };
