@@ -728,7 +728,7 @@ export const all: TData = {
                   params: {},
                 },
                 title: 'Farabius',
-                subTitle: 'Co-Founder, Fullstack + UI/UX',
+                subTitle: 'Co-Founder, CTO',
                 place: 'Istanbul, Turkey',
                 date: '2014 - 2016',
                 achievements: ['Managed to develop an application with a total transaction amount of ~ $1M'
@@ -740,7 +740,7 @@ export const all: TData = {
                   params: {},
                 },
                 title: 'Featherlight Design',
-                subTitle: 'Founder, Fullstack + UI/UX',
+                subTitle: 'Founder',
                 place: 'The Netherlands',
                 date: '2006 - 2014',
                 achievements: ['Branded / re-branded 2 brands which are today still in use for more then 10 years'
@@ -787,7 +787,7 @@ export const all: TData = {
                 type: 'Typeface Design',
                 deliverables: [
                   {
-                    label: 'Second version of the Kode Mono typeface'
+                    label: 'Added three new axes: Weight, Width, and Roundness'
                   },
                 ],
                 links: [{ href: 'https://kodemono.com', target: '_blank', title: 'Official website @ kodemono.com' }],
