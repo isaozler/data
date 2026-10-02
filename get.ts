@@ -348,15 +348,6 @@ export const all: TData = {
             items: [
               {
                 image: {
-                  src: '/logos/kode-mono.png',
-                  params: {},
-                },
-                title: 'Kode Mono v2',
-                subTitle: 'Typeface Design',
-                placeDate: 'Aug 2026 - Present',
-              },
-              {
-                image: {
                   src: '/logos/brightcard.png',
                   params: {},
                 },
@@ -445,7 +436,7 @@ export const all: TData = {
                 placeDate: '2020-2022, The Netherlands',
                 projects: [
                   {
-                    label: 'Building a new IoT platform that enables Heineken breweries to be future-proof.'
+                    label: 'Building a new IoT platform that enables Heineken breweries to be future-proof. (https://aws.amazon.com/partners/success/heineken-schuberg-philis/)'
                   },
                 ],
               },
@@ -764,6 +755,17 @@ export const all: TData = {
                 ],
               },
               {
+                id: 'kode-mono-v2',
+                title: 'Kode Mono v2',
+                type: 'Typeface Design',
+                deliverables: [
+                  {
+                    label: 'Second version of the Kode Mono typeface (Aug 2026 - Present)'
+                  },
+                ],
+                links: [{ href: 'https://kodemono.com', target: '_blank', title: 'Official website @ kodemono.com' }],
+              },
+              {
                 id: 'kode-mono-typography',
                 title: 'Kode Mono Typeface',
                 type: 'Typography Design & development',
@@ -791,35 +793,6 @@ export const all: TData = {
                     title: 'See @ Google Fonts',
                   },
                   { href: 'https://kodemono.com', target: '_blank', title: 'Official website @ kodemono.com' },
-                ],
-              },
-              {
-                title: 'Heineken Connected Brewery',
-                id: 'heineken-connected-brewery',
-                type: 'Mission Critical Engineer',
-                deliverables: [
-                  {
-                    label: 'Dashboard Development'
-                  }
-                ],
-                image: {
-                  src: '/covers/connected-brewery.jpg',
-                  caption: 'Heineken Connected Brewery',
-                  params: {},
-                },
-                description:
-                  'A data-driven, internt-of-things <code>(IoT)</code> platform that its operations teams use to help and enable employees on the shop floor. In 2020, Heineken connected <code>16 production lines</code> to the platform in two months. As a result, the brewer increased efficiency, realized return on investment, and improved employee morale.',
-                links: [
-                  {
-                    href: 'https://youtu.be/liMA7WabMlE?t=474',
-                    target: '_blank',
-                    title: 'AWS re:Event Talk Heineken Connected Brewery',
-                  },
-                  {
-                    href: 'https://aws.amazon.com/partners/success/heineken-schuberg-philis/',
-                    target: '_blank',
-                    title: 'Success story @ aws.amazon.com/partners',
-                  },
                 ],
               },
               {
@@ -933,33 +906,6 @@ export const all: TData = {
                 description: 'Advice tool to get the best communication solutions package that fits your company.',
               },
               {
-                title: 'MonitorX',
-                id: 'monitor-x-home-management-system',
-                subTitle: 'https://monitorx.net',
-                type: 'Fullstack Development + DevOps, UI/UX & Tech Lead',
-                deliverables: [
-                  {
-                    label: 'AWS VPC Setup + integration with Vodafone infrastructure'
-                  },
-                  {
-                    label: 'API Development'
-                  },
-                  {
-                    label: 'Data Management'
-                  },
-                  {
-                    label: 'Mobile Application UI/UX'
-                  },
-                ],
-                image: {
-                  caption: 'MonitorX',
-                  src: '/covers/mnx.jpg',
-                  params: {},
-                },
-                description:
-                  'MonitorX is a all-in-one <code>“Home Energy Management System”</code>, that provides insights of all in-house energy sources available.',
-              },
-              {
                 title: 'Hepido Loyalty Program Branding',
                 id: 'ido-loyalty-program-branding-hepido',
                 type: 'Branding',
@@ -986,7 +932,7 @@ export const all: TData = {
                 ],
               },
               {
-                title: 'LC Waikiki',
+                title: 'LC Waikiki eCommerce Storefront',
                 id: 'lc-waikiki-global-ecommerce-storefront',
                 subTitle: 'Global eCommerce storefront',
                 type: 'Web Application + SAP Integration',
@@ -1009,7 +955,7 @@ export const all: TData = {
                 ],
               },
               {
-                title: 'US Polo',
+                title: 'US Polo Assn. Mobile App',
                 id: 'us-polo-mobile-application',
                 type: 'Mobile Application UI/UX, Development Lead',
                 deliverables: [
