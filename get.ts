@@ -348,20 +348,6 @@ export const all: TData = {
             items: [
               {
                 image: {
-                  src: '/logos/icon-placeholder.png',
-                  params: {},
-                },
-                title: 'Redline Wars',
-                subTitle: 'Visual Identity, Game Logo, App Icon',
-                placeDate: 'Sep 2026',
-                roles: [
-                  'Game logo',
-                  'R app icon & favicon',
-                ],
-                projects: [{ label: 'redlinewars.online' }],
-              },
-              {
-                image: {
                   src: '/logos/kode-mono.png',
                   params: {},
                 },
@@ -760,6 +746,23 @@ export const all: TData = {
           description: 'Detailed information about the projects will follow asap.',
           data: {
             items: [
+              {
+                id: 'redline-wars-visual-identity',
+                title: 'Redline Wars',
+                type: 'Visual Identity',
+                deliverables: [
+                  {
+                    label: 'Game logo'
+                  },
+                  {
+                    label: 'R app icon & favicon'
+                  },
+                ],
+                description: 'Visual identity for the Redline Wars game: the game logo and the R mark used as app icon and favicon (Sep 2026).',
+                links: [
+                  { href: 'https://redlinewars.online', target: '_blank', title: 'Play @ redlinewars.online' },
+                ],
+              },
               {
                 id: 'kode-mono-typography',
                 title: 'Kode Mono Typeface',
